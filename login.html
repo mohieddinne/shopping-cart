@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="background-image: url(https://blog.junkmail.co.za/wp-content/uploads/2016/01/SmartWatches-background.jpg); background-size: cover;">
+    <nav class="navbar" style="background-color: rgba(241, 164, 91, 0.644);">
+        <img src="https://i.pinimg.com/originals/3b/e4/e2/3be4e28da95ccdaa0c892904ba4a15fa.png" alt="" style="height: 200px;">
+        <div style="width: 500px;">
+        <a class="navbar-brand" href="#" style="color: rgb(67, 177, 16);">MY SmartWatch</a>
+        <h5>Une smartwatch est une montre-bracelet avec écran qui offre beaucoup plus qu'une montre ordinaire peut offrir. C'est comme si vous aviez un Smartphone</h5>
+      </div>
+    
+        <div>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <br>
+   
+    
+      </nav>
+    <form class="container" name="RegForm">
+        <div class="form-group " >
+          <label for="exampleInputEmail1" style="color: rgb(247, 246, 240);" >Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="EMail" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1" style="color: rgb(247, 246, 240);">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+          <span class="error" aria-live="polite"></span>
+        </div>
+        
+          
+        
+        </div>
+       <a href="chekout.html"> <button type="submit" class="btn btn-success btn-lg btn-block" type="submit" class="button_active" value="1" >se connecter </button>
+        <h4 style="text-align: center ;color: rgb(247, 246, 240);">ou </h4>
+        <a href="signin.html"> <button type="button" class="btn btn-warning btn-lg btn-block"> s'inscrire</button></a>
+
+      </form>
+      <script>
+        function GEEKFORGEEKS()   
+var email = document.forms["RegForm"]["EMail"]; 
+var password = document.forms["RegForm"]["Password"]; 
+if (email.value == "")                                   
+{ 
+    window.alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+}
+if (password.value == "")                        
+{ 
+    window.alert("Please enter your password"); 
+    password.focus(); 
+    return false; 
+} 
+return true; 
+      </script>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+*, ::before, ::after { box-sizing: border-box; }
+/*nav*/
+.navbar{
+  background-color: rgba(243, 133, 48, 0.562);
+  -webkit-box-shadow: 10px 33px 39px 0px rgba(145,127,97,1);
+-moz-box-shadow: 10px 33px 39px 0px rgba(145,127,97,1);
+box-shadow: 10px 33px 39px 0px rgba(145,127,97,1);
+
+}
+/*endnav*/
+.btn{
+  margin-top: -45px;
+}
+.navbar-brand{
+  font-family: fantasy;
+  font-size: 60px;
+  
+}
+.fa{
+  width: 40px ;
+  height: 50px;
+}
+
+body{
+
+
+  font-family:'Quicksand', sans-serif;
+  text-align:center;
+  line-height:1.5em;
+/*   background:#E0E4CC; */
+background-color: rgba(0, 0, 0, 0.425);
+background-image: url(https://webprintmore.com/wp-content/uploads/2017/08/4214905-background-images-for-websites.jpg);
+background-size: cover;
+
+}
+hr {
+  border:none;
+  background:#E0E4CC;
+  height:1px;
+/*   width:60%;
+  display:block;
+  margin-left:0; */
+}
+.container {
+  max-width: 1000px; 
+  margin: 1em auto; 
+  background : transparent; 
+  padding:30px;
+  border-radius:5px;
+}
+.productcont {
+  display: flex; 
+  flex-wrap: wrap;
+ 
+}
+.product {
+  
+  background-color: rgba(40, 214, 24, 0.363);
+
+  padding:1em; 
+  border:3px solid rgb(185, 221, 4); 
+  margin-right:1em; 
+  border-radius:5px;
+  width: 295px;
+}
+.cart-container {
+  border:5px solid rgb(174, 206, 15);
+  border-radius:5px;
+  margin-top:1em;
+  padding:1em;
+  background-color: rgba(243, 133, 48, 0.178);
+  width: 920px;
+}
+button, input[type="submit"] { 
+    border:1px solid #FA6900; 
+    color:#fff; 
+    background: #F38630; 
+    padding:0.6em 1em;
+    font-size:1em; 
+    line-height:1; 
+    border-radius: 1.2em;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: #A7DBD8;
+    border-color:#69D2E7;
+    color:#000;
+    cursor: pointer;
+}
+table {
+  margin-bottom:1em;
+  border-collapse:collapse;
+}
+table td, table th {
+  text-align:left;
+  padding:0.25em 1em;
+  border-bottom:1px solid #E0E4CC;
+}
+#carttotals {
+  margin-right:0;
+  margin-left:auto;
+}
+.cart-buttons {
+  width:auto;
+  margin-right:0;
+  margin-left:auto;
+  display:flex;
+  justify-content:flex-end;
+  padding:1em 0;
+}
+#emptycart {
+  margin-right:1em;
+}
+table td:nth-last-child(1) {
+  text-align:right;
+}
+.message {
+  border-width: 1px 0px;
+  border-style:solid;
+  border-color:#A7DBD8;
+  color:#679996;
+  padding:0.5em 0;
+  margin:1em 0;
+}
+
+  
+  .separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.1em;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
+  
+  .vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+  }
+  
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+  #carttable{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #carouselExampleControls{
+    background-color: rgba(71, 207, 37, 0.322);
+  }
+  .feedback {
+    background-color : rgb(63, 213, 49);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #dad046;
+  }
+  
+  #mybutton {
+    position: fixed;
+    bottom: 300px;
+    right: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .cart-container{
+      width :400px
+    }
+  }
